@@ -1,3 +1,21 @@
+> ## Archived — Cerberus lives in Mimir's Manual now
+>
+> This repository is **frozen** at its final standalone state and kept
+> public for reference. The Cerberus runbook now lives in the
+> `proxmox-ceph/` directory of
+> [Mimir's Manual](https://github.com/AltonHill/mimirs-manual) — that
+> is where fixes and future work land.
+>
+> Take just the track from the manual:
+>
+> ```bash
+> git clone --filter=blob:none --sparse https://github.com/AltonHill/mimirs-manual.git
+> cd mimirs-manual
+> git sparse-checkout set proxmox-ceph
+> ```
+
+---
+
 # Cerberus
 
 The reusable hyperconverged **Proxmox VE + Ceph** runbook — three nodes standing guard.
